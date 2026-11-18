@@ -4,7 +4,7 @@ class StringBuilder {
     this.#value = initialValue;
   }
   getValue() {
-    return `"${this.#value}"`;
+    return this.#value;
   }
   padEnd(str) {
     return (this.#value += str);
